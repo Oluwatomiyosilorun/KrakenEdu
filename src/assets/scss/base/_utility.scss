@@ -1,0 +1,25 @@
+body{
+    background-color: #f7f8fc;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Pro-SemiBold;
+}
+
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+button{
+    border: none;
+    margin: 12px;
+    padding: 10px 16px;
+    cursor: pointer;
+    color: #9699d2;
+    background: #eff5ff;
+    border-radius: 10px;
+    font-family: Pro-SemiBold;
+    @media screen and (max-width:764px){
+        padding: 7px 13px;
+    }
+}

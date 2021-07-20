@@ -1,0 +1,51 @@
+.suggestion_box_content{
+    background-color: white;
+    margin-top: 20px;
+    padding: 1px 20px;
+    border-radius: 10px;
+    display: flex;
+    .details{
+        margin: 15px;
+        width: 85%;
+        h6{
+            font-size: 16px;
+            margin:0;
+            color: #706e8b;
+        }
+        p{
+            font-size: 14px;
+            color: #c2c3c9;
+            margin-top: 5px;
+        }
+        button{
+            margin: 12px 0;
+        }
+    }
+    .indexNumber{
+        width: 5%;
+        margin-top: 3%;
+        text-align: center;
+        font-weight: bold;
+        background-color: #eff5ff;
+        height: fit-content;
+        padding: 10px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    .comment_section{
+        margin: auto;
+        width: 10%;
+        margin-top: 7%;
+        text-align: center;
+        display: flex;
+        .icon{
+            color: #d1d0ef;
+            font-size: 11px;
+            margin-right: 10px;
+        }
+        p{
+            font-size: 13px;
+            margin: auto;
+        }
+    }
+}
